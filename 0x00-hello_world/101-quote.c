@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - print line using printf fonction to the standard error
  *  Return: 1
  */
 int main(void)
 {
-printf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 return (1);
 }
