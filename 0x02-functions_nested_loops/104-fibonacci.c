@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	int i, n, a = 1, b = 2, c;
+	int i, n, c;
+	int a = 1, b = 2;
 
 	printf("%d, %d, ", a, b);
 
