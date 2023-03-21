@@ -7,25 +7,21 @@
 
 int main(void)
 {
-	unsigned int a = 1, b = 2, c;
-	int count = 0;
+	int i, n, a = 1, b = 2, c;
 
-	printf("%lu, %lu, ", a, b);
-	while (count < 90)
+	printf("%d, %d, ", a, b);
+
+	for (i = 3; i <= 98; i++)
 	{
 		c = a + b;
-		printf("%lu", c);
+		printf("%d", c);
 		a = b;
 		b = c;
-		count++;
-		if (count != 96)
+		if (i != 98)
 		{
 			printf(", ");
 		}
-		else
-		{
-			printf("\n");
-		}
 	}
+	printf("\n");
 	return (0);
 }
