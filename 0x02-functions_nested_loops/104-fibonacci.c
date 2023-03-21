@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(int n)
+int main(void)
 {
 	int count;
 	unsigned long a = 0, b = 1, c;
