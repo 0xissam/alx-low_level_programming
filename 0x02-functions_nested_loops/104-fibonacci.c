@@ -7,18 +7,25 @@
 
 int main(void)
 {
-	unsigned int i;
 	unsigned int a = 1, b = 2, c;
+	int count = 0;
 
 	printf("%u, %u", a, b);
-
-	for (i = 2; i < 98; i++)
+	while (count < 90)
 	{
 		c = a + b;
-		printf(", %u", c);
+		printf("%lu", c);
 		a = b;
 		b = c;
+		count++;
+		if (count != 96)
+		{
+			printf(", ");
+		}
+		else
+		{
+			printf("\n");
+		}
 	}
-	printf("\n");
 	return (0);
 }
