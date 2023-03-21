@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-void print_time_table(int n)
+int main(int n)
 {
 	int count;
 	unsigned long a = 0, b = 1, c;
