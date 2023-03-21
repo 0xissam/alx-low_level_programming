@@ -35,7 +35,7 @@ int main(int n)
 		printf("%lu%lu",k , l);
 		if (count != 98)
 		{
-			printf(', ');
+			printf(", ");
 			d = f;
 			e = j;
 			f = k;
