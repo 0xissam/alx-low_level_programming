@@ -10,7 +10,7 @@ int main(void)
 	unsigned int a = 1, b = 2, c;
 	int count = 0;
 
-	printf("%u, %u", a, b);
+	printf("%lu, %lu, ", a, b);
 	while (count < 90)
 	{
 		c = a + b;
