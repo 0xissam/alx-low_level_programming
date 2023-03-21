@@ -13,17 +13,17 @@ void print_times_table(int n)
     if (n < 0 || n > 15)
         return;
 
-    int i, j, result;
+    int i, j, k;
 
     for (i = 0; i <= n; i++)
     {
         for (j = 0; j <= n; j++)
         {
-            result = i * j;
+            k = i * j;
             if (j == 0)
-                printf("%d", result);
+                printf("%d", k);
             else
-                printf("\t%d", result);
+                printf("\t%d", k);
         }
         printf("\n");
     }
