@@ -35,3 +35,8 @@ a function that prints the sum of the two diagonals of a square matrix of intege
 * Prototype: void print_diagsums(int *a, int size);
 Format: see example
 * You are allowed to use the standard library
+## 8. Double pointer, double fun
+a function that sets the value of a pointer to a char.
+* Prototype: void set_string(char **s, char *to);
+## 9. My primary goal of hacking was the intellectual curiosity, the seduction of adventure
+a file that contains the password for the crackme2 executable.
