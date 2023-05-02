@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * print_listint_safe - Print a `listint_t` linked list including mem addresses
  * @head: head of linked list
